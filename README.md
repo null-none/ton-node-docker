@@ -44,7 +44,7 @@ In the **node part** of the file, you will find following parameters:
 | Variable | Description | Default value |
 | -------- | ----------- | ------------- |
 | `NODE_VERSION` | Release version of the TON node - consider specifying the latest version | `2023.12` |
-| `NODE_CONF_VOLUME` | External volume to store node configuration files | `${PWD}/config/node-config` |
+| `NODE_CONF_VOLUME` | External volume to store node configuration files | `${PWD}/config/node-assets` |
 | `NODE_LOG_VOLUME` | External volume to store node logs | `${PWD}/logs` |
 | `NODE_STATE_VOLUME` | External volume to store the node DB | `${PWD}/db` |
 | `NODE_CONFIG_URL` | Node config URL to download (find current config versions for Testnet and Mainnet below) | Testnet config |
